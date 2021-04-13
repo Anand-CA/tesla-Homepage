@@ -1,0 +1,38 @@
+.body {
+  height: 100vh;
+  background-color: rgb(116, 113, 113);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7rem 0px 5rem 0px;
+  scroll-snap-align: start;
+}
+.bodyHeader {
+  text-align: center;
+}
+.bodyHeader a {
+  color: black;
+}
+.btn-1 {
+  text-transform: uppercase;
+  padding: 15px 35px;
+  margin: 0px 15px;
+  color: white;
+  background-color: #27272b;
+  border: none;
+  outline-width: 0;
+  border-radius: 99px;
+  cursor: pointer;
+}
+.btn-2 {
+  outline-width: 0;
+  border-radius: 99px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+  padding: 15px 35px;
+  margin: 0px 15px;
+  background-color: #e5e5e5;
+  color: black;
+}

@@ -1,14 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
 import { BiMenu } from "react-icons/bi";
-import {
-  Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
 function Header() {
   const [show, setShow] = useState(false);
   const toggleNav = () => {
